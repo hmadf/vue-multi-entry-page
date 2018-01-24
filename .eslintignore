@@ -1,0 +1,7 @@
+build/*.js
+config/*.js
+waprem.js
+weichatshare.js
+dev
+dist
+node_modules
