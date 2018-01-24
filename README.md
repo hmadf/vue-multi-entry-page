@@ -2,7 +2,7 @@
 vue-multi-entry-page webpack2+vue2.0
 
 这里默认是移动版 使用了  require('postcss-px2rem') 在 build/veu-loader.conf.js
-配合 assets/js/lib/Lib 里面引入的waprem.js  在css 中 以设计图 750 为标准 CSS 里面 100px 就是设计图的100pX 会自动转存rem 
+配合 assets/js/lib/Lib 里面引入的waprem.js  在css 中 以设计图 750 为标准 CSS 里面 100px 就是设计图的100pX 会自动转换成rem
 
 ``` bash
 # 安装依赖
