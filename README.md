@@ -41,13 +41,13 @@ webpack
                 |-js/  (非必须)		
                 |---index.html(必须名字必须index)
                 |---index.js(必须名字必须index)
-                |---App.vue(非必须,建议写在项目根目录,建议命名App.vue)
+                |---App.vue(必须,建议写在项目根目录,建议命名App.vue)
         |---vuex #一级目录
             |-components/  (非必须)
             |-images/  (非必须)
             |-css/ (非必须)
             |-js/  (非必须)
-            |-App.vue  (非必须)
+            |-App.vue  (必须)
             |-index.html   (必须)
             |-index.js (必须)
     |---assets    #资源
