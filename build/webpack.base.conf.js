@@ -74,7 +74,7 @@ var webpackConfig = {
         new webpack.optimize.CommonsChunkPlugin({
             name: 'common',
             chunks: chunks,
-            minChunks: chunks.length >= 2 ?  chunks.length : 2// 提取至少4个模块共有的部分
+            minChunks: chunks.length >= 2 ?  chunks.length : 2
         }),
         // extract webpack runtime and module manifest to its own file in order to
         // prevent vendor hash from being updated whenever app bundle is updated
